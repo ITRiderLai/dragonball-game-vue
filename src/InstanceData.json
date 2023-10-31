@@ -1,0 +1,219 @@
+{
+    "InstanceLevel":[
+        {"id":0,"title":"Goku And Companions","url":"/image/instance1.png","width":"width:8.8rem"},
+        {"id":1,"title":"Tenkaichi Budokai","url":"/image/instance2.png","width":"width:8.8rem"},
+        {"id":2,"title":"Muscle Tower","url":"/image/instance3.png","width":"width:5.1rem"},
+        {"id":3,"title":"Red Ribbon Army","url":"/image/instance4.png","width":"width:6rem"}
+    ],
+    "InstanceItem":[
+        [{
+            "id":"0",
+            "title":"悟空出现",
+            "content":[
+                {"id":"1-1","order":"One","txt":"据说七个龙珠遍布世界各地，当它们聚在一起时，神龙就会出现，可以让任何一个梦想成真。","vigor":15,"exp":60,"coin":2250},
+                {"id":"1-2","order":"Final Stage","txt":"在一座深山里住着一个强壮善良的名叫悟空的孩子。某一天，他遇到了寻找龙珠的布玛","vigor":25,"exp":100,"coin":3750,"recomended":280,"instance_level":0,"chapter_id":"1&0","enemy":[
+                    {"id":0,"char_name":"xiaoxinshixiong","title":"小林师兄","grade":1,"current_zl":40,"current_fy":140,"headImg":"/image/char_head/xiaolinshixiong_head.png","charImg":"/image/char/xiaolinshixiong.png","star":2,"skill":[
+                        {"id":0,"name":"天空十字斩","img":"/image/skill/tiankongshizizhan.png","intro":"战斗中，有5%的几率增加34%的防御和攻击值"}
+                    ]},
+                    {"id":1,"char_name":"hongchoujunshibing","title":"红绸军士兵","grade":1,"current_zl":140,"current_fy":140,"headImg":"/image/char_head/hongchoujunshibing_head.png","charImg":"/image/char/hongchoujunshibing.png","star":1,"skill":[
+                     
+                    ]}
+                ],"post":"zl"}
+            ]
+        },
+        {   
+            "id":"1",
+            "title":"好色的乌龙",
+            "content":[
+                {"id":"2-1","order":"One","txt":"悟空和布尔玛帮助了一只迷路的乌龟，那是龟仙人的宠物。作为回报，龟仙人把筋斗云送给了小悟空。","vigor":12,"exp":48,"coin":1800},
+                {"id":"2-2","order":"Two","txt":"悟空和布尔玛正在路上，他们听说一个叫乌龙的妖怪抢劫了少女。","vigor":15,"exp":60,"coin":2250},
+                {"id":"2-3","order":"Final Stage","txt":"悟空和乌龙打完架，发现其实乌龙是个色狼小猪。乌龙答应释放这些女孩，并且加入寻找龙珠的团队。","vigor":15,"exp":60,"coin":2250,"recomended":600,"instance_level":0,"chapter_id":"2&0","enemy":[
+                    {"id":0,"char_name":"xiaoxinshixiong","title":"小林师兄","grade":1,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/xiaolinshixiong_head.png","charImg":"/image/char/xiaolinshixiong.png","star":2,"skill":[
+                        {"id":0,"name":"天空十字斩","img":"/image/skill/tiankongshizizhan.png","intro":"战斗中，有5%的几率增加34%的防御和攻击值", "type": "silent", "change": 100, "show": "/image/skill/zhiyushu.gif"}
+                    ]},
+                    {"id":1,"char_name":"hongchoujunshibing","title":"红绸军士兵","grade":1,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/hongchoujunshibing_head.png","charImg":"/image/char/hongchoujunshibing.png","star":1,"skill":[
+                     
+                    ]}
+                ],"post":"zl"}
+            ]
+        },
+        {
+            "id":"2",
+            "title":"遇见雅木茶",
+            "content":[
+                {"id":"3-1","order":"One","txt":"在沙漠的路上，乌龙、悟空和布尔玛遭到了一个叫雅木茶和普尔的袭击。","vigor":1,"exp":4,"coin":150},
+                {"id":"3-2","order":"Two","txt":"其实他在幼儿园时和乌龙是同学，但老师却被乌龙欺负，说乌龙从幼儿园就开始调戏女生。","vigor":6,"exp":24,"coin":900},
+                {"id":"3-3","order":"Three","txt":"雅木茶用狼牙风风拳攻击饥饿的悟空，但是当他看到布玛时，他感到头晕","vigor":11,"exp":44,"coin":1650},
+                {"id":"3-4","order":"Four","txt":"虽然雅木茶很强壮，但是他害怕女孩们。不过，他总是想要结婚","vigor":15,"exp":60,"coin":2250},
+                {"id":"3-5","order":"Final Stage","txt":"从此之后雅木茶一直在悟空他们身边活跃着。","vigor":20,"exp":80,"coin":3000,"recomended":980,"instance_level":0,"chapter_id":"3&1","enemy":[
+                    {"id":0,"char_name":"xiongqiangdao","title":"熊强盗","grade":2,"current_zl":240,"current_fy":240,"headImg":"/image/char_head/xiongqiangdao_head.png","charImg":"/image/char/xiongqiangdao.png","star":1,"skill":[
+                       
+                    ]},
+                    {"id":1,"char_name":"pilafu","title":"皮拉夫","grade":2,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/pilafu_head.png","charImg":"/image/char/pilafu.png","star":2,"skill":[
+                            {"id":0,"name":"火箭弹","img":"/image/skill/huojiandan.png","intro":"战斗中，有25%的几率增加20%的攻击值", "type": "repeat"}
+                    ]},
+                    {"id":2,"char_name":"yamucha","title":"雅木茶","grade":2,"current_zl":440,"current_fy":440,"headImg":"/image/char_head/yamucha_head.png","charImg":"/image/char/yamucha.png","star":3,"skill":[
+                        {"id":0,"name":"狼牙风风拳","img":"/image/skill/langyafengfengquan.png","intro":"战斗中，有20%的几率增加21%的攻防值"},
+                        {"id":1,"name":"操气弹","img":"/image/skill/chaoqidan.png","intro":"在战斗中，有23%的几率增加11%的防御和攻击值和降低敌人11%的攻防值"}
+                    ]}
+                ],"post":"zl"}
+            ]
+        },
+        {
+            "id":"3",
+            "title":"火焰山",
+            "content":[
+                {"id":"4-1","order":"One","txt":"悟空3个人在去火焰山的路上寻找第6个龙珠。","vigor":1,"exp":4,"coin":150},
+                {"id":"4-2","order":"Two","txt":"雅木茶跟着他们的脚步，击昏了一个戴头盔的漂亮女孩。","vigor":6,"exp":24,"coin":900},
+                {"id":"4-3","order":"Three","txt":"小悟空坐上筋斗云打算去山顶上，但由于群火，他无法靠近。","vigor":11,"exp":44,"coin":1650},
+                {"id":"4-4","order":"Four","txt":"在这个时候，火焰山之王出现了。","vigor":15,"exp":60,"coin":2250},
+                {"id":"4-5","order":"Final Stage","txt":"当牛魔王看到筋斗云时，他立刻改变了态度。","vigor":20,"exp":80,"coin":3000,"recomended":270,"post":"zl"}
+            ]
+        },
+        {
+            "id":"4",
+            "title":"漂亮的琪琪",
+            "content":[
+                {"id":"5-1","order":"One","txt":"实际上牛魔王和悟空的爷爷都是龟仙人的弟子","vigor":1,"exp":4,"coin":150},
+                {"id":"5-2","order":"Two","txt":"牛魔王告诉悟空，要想熄灭火焰只能用龟仙人的芭蕉扇","vigor":6,"exp":24,"coin":900},
+                {"id":"5-3","order":"Three","txt":"牛魔王让悟空找到他的女儿琪琪一起去龟仙人那里借芭蕉扇。","vigor":11,"exp":44,"coin":1650},
+                {"id":"5-4","order":"Four","txt":"雅木茶知道刚才打晕的女孩是牛魔王的女儿，赶紧帮助他们以免被牛魔王怪责。","vigor":15,"exp":60,"coin":2250},
+                {"id":"5-5","order":"Final Stage","txt":"雅木茶在救了琪琪之后走了，悟空随后到来。","vigor":20,"exp":80,"coin":3000,"recomended":290,"post":"zl"}
+            ]
+        },
+        {
+            "id":"5",
+            "title":"拜访龟仙人",
+            "content":[
+                {"id":"6-1","order":"One","txt":"悟空跟琪琪一起去找龟仙人借芭蕉扇。","vigor":1,"exp":4,"coin":150},
+                {"id":"6-2","order":"Two","txt":"当他们到达龟仙人岛时，龟仙人告诉他们不小心把芭蕉扇扔了。","vigor":6,"exp":24,"coin":900},
+                {"id":"6-3","order":"Three","txt":"龟仙人亲自跟他们回去灭火。","vigor":11,"exp":44,"coin":1650},
+                {"id":"6-4","order":"Four","txt":"他们回来了火焰山，但是龟仙人真的可以灭火吗？","vigor":15,"exp":60,"coin":2400},
+                {"id":"6-5","order":"Final Stage","txt":"龟仙人使用了绝技龟派气功熄灭了火焰山，但是不幸的是把火焰山给毁了，众人都非常吃惊。","vigor":20,"exp":80,"coin":3000,"recomended":370,"post":"zl"}
+            ]
+        },
+        {
+            "id":"6",
+            "title":"约定新婚",
+            "content":[
+                {"id":"7-1","order":"One","txt":"令龟仙人吃惊的是，悟空很快就学会了龟派气功，在龟仙人知道他是悟饭的孙子之后便让他寻找完龙珠之后接受训练。","vigor":1,"exp":4,"coin":150},
+                {"id":"7-2","order":"Two","txt":"布玛在废墟中找到了第六颗龙珠。","vigor":6,"exp":24,"coin":900},
+                {"id":"7-3","order":"Three","txt":"悟空答应了琪琪长大之后娶她当新娘，但是他不知道什么是妻子。","vigor":11,"exp":44,"coin":1650},
+                {"id":"7-4","order":"Four","txt":"他们走进了一座新的塔楼，布尔玛的兔女郎装备让塔楼里的每个人都感到害怕，塔楼是由一个叫兔子暴徒的帮派统治的。","vigor":15,"exp":60,"coin":2400},
+                {"id":"7-5","order":"Final Stage","txt":"小悟空在雅木茶的帮助下，打败了兔子暴徒，并用把他们送上了月球。","vigor":20,"exp":80,"coin":3150,"recomended":670,"post":"zl"}
+            ]
+        }],
+        [
+            {
+                "id":"0",
+                "title":"掠夺龙珠",
+                "content":[
+                    {"id":"8-1","order":"One","txt":"当他们回到路上的时候被一个机器人袭击了，阿修偷走了他们的五个龙珠，幸运的是，小悟空坚持把他的四星球留在身边。","vigor":1,"exp":4,"coin":150},
+                    {"id":"8-2","order":"Two","txt":"罪犯是皮拉夫，他的心愿是统治世界。","vigor":6,"exp":24,"coin":900},
+                    {"id":"8-3","order":"Three","txt":"雅木茶抓住他们，帮他们拿回龙珠。","vigor":11,"exp":44,"coin":1650},
+                    {"id":"8-4","order":"Four","txt":"所有人又再一次被皮拉夫团伙攻击了。","vigor":15,"exp":60,"coin":2400},
+                    {"id":"8-5","order":"Final Stage","txt":"最后，悟空的四个龙珠也被偷了。","vigor":20,"exp":80,"coin":3150,"recomended":620,"post":"zl"}
+                ]
+            },
+            {
+                "id":"1",
+                "title":"召唤神龙",
+                "content":[
+                    {"id":"9-1","order":"One","txt":"皮拉夫最后得到了七颗龙珠，并且召唤了神龙","vigor":2,"exp":8,"coin":300},
+                    {"id":"9-2","order":"Two","txt":"关键时刻乌龙抢在皮拉夫前向神龙许愿了一条内裤。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"9-3","order":"Three","txt":"神龙实现了乌龙的愿望之后消失在众人面前，皮拉夫决定把悟空他们全都杀死。","vigor":11,"exp":44,"coin":1650},
+                    {"id":"9-4","order":"Four","txt":"悟空抬起头看到了满月变身为大猿猴把皮拉夫城堡给破坏了。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"9-5","order":"Final Stage","txt":"变身为大猿猴的悟空失控了，雅木茶让普尔变为剪刀，在悟空不注意的时候把他的尾巴剪掉了，悟空恢复了。","vigor":21,"exp":84,"coin":3150,"recomended":860,"post":"zl"}
+                ]
+            },
+            {
+                "id":"2",
+                "title":"拜师龟仙人",
+                "content":[
+                    {"id":"10-1","order":"One","txt":"悟空后来跟伙伴们离别了，为了变得更强，他去拜师龟仙人。","vigor":2,"exp":8,"coin":300},
+                    {"id":"10-2","order":"Two","txt":"龟仙人让悟空找来一位漂亮的女生作为拜师的条件，与此同时，另一位叫克林的和尚也来到了岛上想要拜龟仙人为老师。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"10-3","order":"Three","txt":"同样的条件，悟空和克林开始去寻找漂亮的女生。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"10-4","order":"Four","txt":"悟空和克林找到了一位名叫兰琪的女生。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"10-5","order":"Final Stage","txt":"兰琪有两个不同的人格，和悟空他们一起生活。","vigor":21,"exp":84,"coin":3150,"recomended":1170,"post":"zl"}
+                ]
+            },
+            {
+                "id":"3",
+                "title":"开始训练",
+                "content":[
+                    {"id":"11-1","order":"One","txt":"龟仙岛太小了，他们要到别的地方去训练。","vigor":2,"exp":8,"coin":300},
+                    {"id":"11-2","order":"Two","txt":"龟仙人在一块石头上写上“龟”字，谁先找到这块石头今天晚上就能吃饭。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"11-3","order":"Three","txt":"克林很懒不想去找石头就找了另一块石头写上了“龟”字，但是被龟仙人发现了这是假的。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"11-4","order":"Four","txt":"当悟空找到了这块石头，克林再一次耍诈把悟空的石头骗到手里，最后赢得了比赛。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"11-5","order":"Final Stage","txt":"悟空被惩罚了，但是兰琪不擅长烹饪，除了悟空他们都生病了，训练暂停。","vigor":21,"exp":84,"coin":3150,"recomended":1220,"post":"zl"}
+                ]
+            },
+            {
+                "id":"4",
+                "title":"恐怖的训练",
+                "content":[
+                    {"id":"12-1","order":"One","txt":"龟仙人让悟空和克林去送牛奶。","vigor":2,"exp":8,"coin":300},
+                    {"id":"12-2","order":"Two","txt":"为了增强训练，龟仙人让悟空和克林训练的时候背上龟壳。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"12-3","order":"Three","txt":"龟仙人严格的训练让他们感到一天犹如一年。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"12-4","order":"Four","txt":"龟仙人有很多不同的方式来训练悟空和克林。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"12-5","order":"Final Stage","txt":"经过一段时间的训练，悟空和克林变得更加的强壮，龟仙人让他们去参加天下比武大赛。","vigor":21,"exp":84,"coin":3150,"recomended":1620,"post":"zl"}
+                ]
+            },
+            {
+                "id":"5",
+                "title":"天下大会",
+                "content":[
+                    {"id":"13-1","order":"One","txt":"天下第一武道大会开始了，悟空和克林顺利通过了预赛。","vigor":2,"exp":8,"coin":300},
+                    {"id":"13-2","order":"Two","txt":"克林克服了胆小打败了同门的和尚师兄，通过了预赛。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"13-3","order":"Three","txt":"在第二场比赛中，一个名叫程龙的选手打败了雅木茶获得了胜利。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"13-4","order":"Four","txt":"悟空被安排到与一位叫基蓝的怪物比赛，被基蓝口里吐出的口香糖困住。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"13-5","order":"Final Stage","txt":"关键时刻悟空的尾巴长出来了，使出全身力气破解了口香糖，基蓝看到这实力便投降了。","vigor":21,"exp":84,"coin":3150,"recomended":1860,"post":"zl"}
+                ]
+            },
+            {
+                "id":"6",
+                "title":"获得晋升",
+                "content":[
+                    {"id":"14-1","order":"One","txt":"克林用策略将程龙踢出比赛现场，但是成龙回到赛场，通过龟波的反冲力击败克林。","vigor":2,"exp":8,"coin":300},
+                    {"id":"14-2","order":"Two","txt":"程龙被雅木茶等人怀疑他就是龟仙人老师。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"14-3","order":"Three","txt":"南无想通过比赛赢得奖金买水回家，但是被悟空打败了，他准备孤独的回家。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"14-4","order":"Four","txt":"程龙找到南无并且告诉他真正的身份，给了他足够的水带回家去。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"14-5","order":"Final Stage","txt":"其实程龙的真实身份是龟仙人老师，他为了让徒弟明白人外有人的道理，打扮为程龙跟徒弟比武。","vigor":21,"exp":84,"coin":3150,"recomended":2060,"post":"zl"}
+                ]
+            },
+            {
+                "id":"7",
+                "title":"确认身份",
+                "content":[
+                    {"id":"15-1","order":"One","txt":"雅木茶想要去确认程龙的真实身份。","vigor":2,"exp":8,"coin":300},
+                    {"id":"15-2","order":"Two","txt":"他使用了很多方法去确认程龙的身份，比如抓头发。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"15-3","order":"Three","txt":"为了摆脱嫌疑，龟仙人想到了一个好主意。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"15-4","order":"Four","txt":"他找到了南无让他假扮自己出现在观众席。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"15-5","order":"Final Stage","txt":"最后雅木茶才打消了程龙就是龟仙人老师的念头。","vigor":21,"exp":84,"coin":3150,"recomended":2260,"post":"zl"}
+                ]
+            },
+            {
+                "id":"8",
+                "title":"最后的比赛",
+                "content":[
+                    {"id":"16-1","order":"One","txt":"激烈的比赛开始了，悟空一开始就被踢出擂台外，机智的他使用尾巴存货了下来。","vigor":2,"exp":8,"coin":300},
+                    {"id":"16-2","order":"Two","txt":"程龙使用了冲击波对付悟空，惊讶的是悟空也使出了冲击波。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"16-3","order":"Three","txt":"程龙使用了残影拳，悟空也模仿了他的招数。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"16-4","order":"Four","txt":"为了避免模仿，程龙使用了醉拳，没想到悟空使用了猴子拳。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"16-5","order":"Final Stage","txt":"最后程龙用了万国惊天掌，悟空不肯认输，他看了一眼天空。","vigor":21,"exp":84,"coin":3150,"recomended":2580,"post":"zl"}
+                ]
+            },
+            {
+                "id":"9",
+                "title":"天下第一",
+                "content":[
+                    {"id":"17-1","order":"One","txt":"满月出现了，悟空再一次变了巨大的猩猩。","vigor":2,"exp":8,"coin":300},
+                    {"id":"17-2","order":"Two","txt":"在这时，程龙用了最大功率的龟派气功，众人都认为悟空死了，但是发现月亮不见了。","vigor":7,"exp":28,"coin":1050},
+                    {"id":"17-3","order":"Three","txt":"悟空醒了，比赛继续，两人都已经筋疲力荆了，他们都用出全力决一胜负，最后胜利的是程龙。","vigor":12,"exp":48,"coin":1800},
+                    {"id":"17-4","order":"Four","txt":"悟空虽然输了但是获益甚大，还把龟仙人赢的五百万吃光了。","vigor":16,"exp":64,"coin":2400},
+                    {"id":"17-5","order":"Final Stage","txt":"武道会结束以后，龟仙人老师认为悟空和克林的能力都超越他了，让他们自己去训练。","vigor":21,"exp":84,"coin":3150,"recomended":2920,"post":"zl"}
+                ]
+            }
+        ]
+    ]
+}

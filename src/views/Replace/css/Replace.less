@@ -1,0 +1,148 @@
+#Replace{
+    width: 100%;
+    height: 4.6rem;
+    background: url(/image/adjust_top.png) no-repeat;
+    background-size: 100%;
+    text-align: right;
+    .close_btn{
+        width: 2rem;
+        height: 2rem;
+        margin: 2rem 1rem 0 0;
+        background:  url("/image/home_icon.png") no-repeat;
+        background-size: 35rem;
+        background-position: -27rem -2.5rem;
+    }
+    .replace_body{
+        background-color: #fff4de;
+        .replace_list{
+            height: 65vh;
+            overflow-y: auto;
+            scrollbar-width: none; /* firefox */
+            -ms-overflow-style: none; /* IE 10+ */
+            &::-webkit-scrollbar {
+                display: none; /* Chrome Safari */
+            }
+            .replace_title{
+                padding-left: 2rem;
+                margin-bottom: 0.5rem;
+                height: 1.5rem;
+                background: url("/image/start_category_bg.png") no-repeat;
+                background-size: 100%;
+                .start_wrap{
+                    float: left;
+                    width: 4.5rem;
+                    text-align: center;
+                }
+                .start_icon{
+                    display: inline-block;
+                    width: 0.8rem;
+                    height: 0.8rem;
+                    background: url("/image/home_icon.png") no-repeat;
+                    background-size: 19rem;
+                    background-position: -12.9rem -4.8rem;
+                }
+                .select_all{
+                    float: right;
+                    margin-right: 1rem;
+                    font-size: 0.6rem;
+                    .select_txt{
+                        line-height: 1.5rem;
+                        margin-right: 0.5rem;
+                    }
+                    .select_radio{
+                        position: relative;
+                        top: 0.1rem;
+                    }
+                }
+                &::after{
+                    content:"";
+                    display: block;
+                    clear: both;
+                }
+            }
+            .data_list{
+                overflow-y: hidden;
+                color: white;
+                .data_item{
+                    width: 4rem;
+                    float: left;
+                    margin: 0 0 0.5rem 0.5rem;
+                    text-align: center;
+                    .select_icon{
+                        display: block;
+                        width: 1rem;
+                        height: 1rem;
+                        left: 0.5rem;
+                        top: -0.1rem;
+                        background: url("/image/home_icon.png") no-repeat;
+                        background-size: 60rem;
+                        background-position: -56rem -5.3rem;
+                    }
+                    .data_img{
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                    .data_lv{
+                        display: block;
+                        position: absolute;
+                        right: 0.5rem;
+                        top: 0;
+                        width: 0.8rem;
+                        height: 0.8rem;
+                        text-align: center;
+                        font-size: 0.6rem;
+                        font-weight: 700;
+                        transform: scale(0.7);
+                    }
+                    .data_name{
+                        background-color:white;
+                        border: 0.1rem solid #36366b;
+                        padding:0.05rem;
+                        font-size: 0.6rem;
+                        p{
+                            line-height: 0.8rem;
+                            background-color: #36366b;
+                            span{
+                                display: block;
+                                transform: scale(0.8);
+                            }
+                        }
+                    }
+                }
+                &::after{
+                    display: block;
+                    content: "";
+                    clear: both;
+                }
+            }
+        }
+        .control_wrap{
+            width: 100%;
+            padding: 1.8rem 0;
+            background: url("/image/form_sx_bg.png") no-repeat;
+            background-size: 100%;
+            .replace_btn{
+                width: 3.5rem;
+                height: 1.5rem;
+                line-height: 1.7rem;
+                color: white;
+                text-shadow: 1px 1px black;
+                margin-right: 1rem;
+                background: url(/image/home_icon.png) no-repeat;
+                background-size: 40rem;
+                background-position: -26.4rem -7.5rem;
+            }
+        }
+    }
+    .loading_wrap{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15rem;
+        height: 15rem;
+        transform: translate(-50%,-50%);
+        .loading{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,230 @@
+#itemTab{
+    .wp_list{
+        height: 70vh;
+        overflow: hidden;
+        overflow-y: auto;
+        scrollbar-width: none; /* firefox */
+        -ms-overflow-style: none; /* IE 10+ */
+        &::-webkit-scrollbar {
+            display: none; /* Chrome Safari */
+        }
+        .wp_item{
+            width: 25%;
+            float: left;
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            padding:0 0.3rem;
+            margin-top: 0.5rem;
+            .img_wrap{
+                width: 3rem;
+                height: 3rem;
+                margin: 0 auto;
+                background: url("/image/wp_box_icon.png") no-repeat;
+                background-size: 6.6rem;
+            }
+            .img_active{
+                background: url("/image/wp_box_icon.png") no-repeat;
+                background-position-x: -3.6rem;
+                background-size: 6.6rem;
+            }
+            .wp_img{
+                width: 100%;
+            }
+            .wp_name{
+                background-color:white;
+                border: 0.1rem solid #36366b;
+                padding:0.05rem;
+                p{
+                    line-height: 0.8rem;
+                    background-color: #36366b;
+                    span{
+                        display: block;
+                        transform: scale(0.8);
+                    }
+                }
+            }
+            .wp_num{
+                position: absolute;
+                top: -0.2rem;
+                right: 0.8rem;
+                width: 1rem;
+                height: 1rem;
+                background: url("/image/home_icon.png") no-repeat;
+                background-size: 26rem;
+                background-position: -23.25rem -0.5rem;
+            }
+            
+        }
+        &::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+    .use_wrap{
+        position: fixed;
+        width: 100%;
+        height: 5rem;
+        bottom: 3rem;
+        opacity: 0.5;
+        background: url("/image/form_sx_bg.png") no-repeat;
+        background-size: 100%;
+        .content_box{
+            position: relative;
+            top: 0.25rem;
+            right: 0;
+            .wp_desc{
+                flex: 2;
+                .wp_name{
+                    padding-left: 1rem;
+                    line-height: 1.75rem;
+                }
+                .wp_desc{
+                    font-size: 0.6rem;
+                    line-height: 1rem;
+                    padding-left: 1rem;
+                }
+            }
+            .add_wrap{
+                flex: 1;
+                padding-top: 1.75rem;
+                .btn{
+                    display: block;
+                    width: 1rem;
+                    height: 1rem;
+                    float: left;
+                    background: url("/image/home_icon.png") no-repeat;
+                }
+                .add{
+                    background-size: 70rem;
+                    background-position: -62.4rem -6.3rem;
+                }
+                .reduce{
+                    background-size: 70rem;
+                    background-position: -60.2rem -6.3rem;
+                }
+                .num_input{
+                    float: left;
+                    width: 2rem;
+                    height: 0.5rem;
+                    line-height: 0.5rem;
+                    margin-top: 0.2rem;
+                    text-align: center;
+                }
+
+                &::after{
+                    display: block;
+                    content: "";
+                    clear: both;
+                }
+            }
+            .sell_wrap{
+                flex: 1;
+                .btn{
+                    display: block;
+                    width: 4rem;
+                    height: 1.5rem;
+                    margin-top: 0.5rem;
+                    color: white;
+                    font-weight: 700;
+                    background: url("/image/home_icon.png") no-repeat;
+                }
+                .use_btn{
+                    background-size: 42rem;
+                    background-position: -27.59rem -5.9rem;
+                }
+                .sell_btn{
+                    background-size: 42rem;
+                    background-position: -27.59rem -8rem;
+                }
+            }
+            &::after{
+                display: block;
+                content: "";
+                clear: both;
+            }
+            
+        }
+        &.use_active{
+            opacity: 1;
+        }
+    }
+    .item_receive{
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        .mask{
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .item_list{
+            width: 6rem;
+            height: 5.3rem;
+            overflow: hidden;
+        }
+        .item_wrap{
+            left: 43%;
+            top: 30%;
+            .item_box{
+                width: 6rem;
+                .item_num{
+                    color: white;
+                    margin-left: 4rem;
+                    line-height: 3.5rem;
+    
+                }
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+            }
+            .item_pic{
+                width: 3.5rem;
+                height: 3.5rem;
+                background: url("/image/wp_box_icon.png") no-repeat;
+                background-size: 7.7rem;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+            .item_name{
+                color: white;
+                width: 3.5rem;
+                height: 2rem;
+                text-align: center;
+                line-height: 2rem;
+                font-size: 0.6rem;
+                background: url(/img/home_icon.8bc51226.png) no-repeat;
+                background-size: 40rem;
+                background-position: -30.5rem -0.5rem;
+            }
+            button{
+                width: 3.5rem;
+                height: 1.5rem;
+                line-height: 1.7rem;
+                color: white;
+                text-shadow: 1px 1px black;
+                background: url(/img/home_icon.8bc51226.png) no-repeat;
+                background-size: 40rem;
+                background-position: -26.4rem -7.5rem;
+            }
+        }
+    }
+    .loading_wrap{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15rem;
+        height: 15rem;
+        transform: translate(-50%,-50%);
+        .loading{
+            width: 100%;
+        }
+    }
+}

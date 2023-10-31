@@ -1,0 +1,132 @@
+#Shop{
+    .shop_header{
+        background: url('/image/house_top_bg.png') no-repeat;
+        background-size: 100%;
+    }
+    .cf_wrap{
+        padding: 1.5rem 0.5rem 0.5rem;
+        .bar_btn{
+            width: 2.5rem;
+            height: 2.5rem;
+            margin-top: 0.2rem;
+            margin-right: 3rem;
+            background: url("/image/home_icon.png") no-repeat;
+            background-size: 18rem;
+            background-position: -3.2rem -2.8rem;
+        }
+        .coin_dia_wrap{
+            padding-left: 1rem;
+        }
+        .icon{
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            top: 0.85rem;
+            background:url("/image/home_icon.png") no-repeat;
+        }
+        .coin{
+            background-size:16rem;
+            background-position:-6.8rem -0.2rem;
+        }
+        .dia{
+            background-size:7.4rem;
+            background-position:-3.8rem 0rem;
+        }
+        .txt{
+            display: block;
+            font-size: 0.6rem;
+            line-height: 2.75rem;
+            font-weight: 700;
+            color: white;
+        }
+    }
+    .shop_body{
+        height: 80vh;
+        overflow:hidden;
+        overflow-y: auto;
+        background-color: #fff4de;
+        .goods_item{
+            height: 5.1rem;
+            background: url('/image/goods_bg.png') no-repeat;
+            background-size: 100%;
+        }
+        .goods_pic{
+            width: 4rem;
+            height: 4rem;
+            margin: 0.6rem 0.6rem 0;
+            background: url("/image/wp_box_icon.png") no-repeat;
+            background-size: 8.8rem;
+            img{
+                width: 100%;
+            }
+            .goods_num{
+                position: absolute;
+                top: -0.2rem;
+                right: 0;
+                width: 1rem;
+                height: 1rem;
+                font-size: 0.6rem;
+                background: url("/image/home_icon.png") no-repeat;
+                background-size: 26rem;
+                background-position: -23.25rem -0.5rem;
+            }
+        }
+        .goods_desc{
+            h6{
+                color: #333;
+                line-height: 1.5rem;
+            }
+            p{
+                margin-top: 0.5rem;
+                font-size: 0.6rem;
+                color: chocolate;
+            }
+        }
+        .buy_btn{
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            margin:0 0.5rem;
+            width: 4rem;
+            height: 1.8rem;
+            font-size: 0.6rem;
+            background: url("/image/home_icon.png") no-repeat;
+            background-size: 47rem;
+            background-position: -31.1rem -8.9rem;
+            .cf_icon{
+                display: block;
+                width: 1rem;
+                height: 1rem;
+                top: 50%;
+                left: 0.25rem;
+                transform: translateY(-50%);
+                background: url("/image/home_icon.png") no-repeat;
+            }
+            .coin{
+                background-size:16rem;
+                background-position:-6.8rem -0.2rem;
+            }
+            .dia{
+                background-size: 7.4rem;
+                background-position: -3.8rem 0rem;
+            }
+            span{
+                display: block;
+                line-height: 1.8rem;
+                padding-left: 1.2rem;
+            }
+        }
+    }
+    .loading_wrap{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15rem;
+        height: 15rem;
+        transform: translate(-50%,-50%);
+        z-index: 9999;
+        .loading{
+            width: 100%;
+        }
+    }
+}

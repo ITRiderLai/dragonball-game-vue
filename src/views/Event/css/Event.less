@@ -1,0 +1,135 @@
+#Event{
+    .event_body{
+        width: 100vw;
+        height: 100vh;
+        background: url('/image/event_bg.png') no-repeat;
+        background-size: 100%;
+        .event_list{
+            padding: 5rem 1rem 0;
+            .event_item{
+                padding: 2rem 0;
+                span{
+                    float: right;
+                }
+                button{
+                    float: right;
+                    width: 3.5rem;
+                    height: 1.5rem;
+                    line-height: 1.7rem;
+                    margin-left: 4rem;
+                    color: white;
+                    text-shadow: 1px 1px black;
+                    background: url('/image/home_icon.png') no-repeat;
+                    background-size: 40rem;
+                    background-position: -26.4rem -7.5rem;
+                }
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+            }
+        }
+    }
+    .event-dialog{
+        height: 12rem;
+        background: url("/image/choujiangji.png") no-repeat;
+        background-size: 100%;
+        box-shadow: none;
+        .el-dialog__body{
+            padding: 1.2rem 0.8rem 1rem;
+        }
+        .prize_list{
+            height: 2.6rem;
+            overflow-y: auto;
+        }
+        .prize_item{
+            width: 6rem;
+            height: 1.6rem;
+            text-align: center;
+            line-height: 2rem;
+            margin: 0.5rem auto;
+            font-size: 0.6rem;
+            background: url(/image/adventure_bg.png) no-repeat;
+            background-size: 100%;
+        }
+        .once_more{
+            display: block;
+            margin:4.3rem auto 0;
+            width: 4.5rem;
+            height: 1.2rem;
+            opacity: 0;
+        }
+    }
+    .item_receive{
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+        .mask{
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .item_wrap{
+            left: 43%;
+            top: 30%;
+            .item_box{
+                width: 6rem;
+                .item_num{
+                    color: white;
+                    margin-left: 4rem;
+                    line-height: 3.5rem;
+    
+                }
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+            }
+            .item_pic{
+                width: 3.5rem;
+                height: 3.5rem;
+                background: url("/image/wp_box_icon.png") no-repeat;
+                background-size: 7.7rem;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+            .item_name{
+                color: white;
+                width: 3.5rem;
+                height: 2rem;
+                text-align: center;
+                line-height: 2rem;
+                font-size: 0.6rem;
+                background: url('/image/home_icon.png') no-repeat;
+                background-size: 40rem;
+                background-position: -30.5rem -0.5rem;
+            }
+            button{
+                width: 3.5rem;
+                height: 1.5rem;
+                line-height: 1.7rem;
+                color: white;
+                text-shadow: 1px 1px black;
+                background: url('/image/home_icon.png') no-repeat;
+                background-size: 40rem;
+                background-position: -26.4rem -7.5rem;
+            }
+        }
+    }
+    .loading_wrap{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15rem;
+        height: 15rem;
+        transform: translate(-50%,-50%);
+        z-index: 9999;
+        .loading{
+            width: 100%;
+        }
+    }
+}

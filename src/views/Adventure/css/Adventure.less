@@ -1,0 +1,148 @@
+#Adventure{
+    font-size: 0.6rem;
+    .adventure_header{
+        padding: 1.9rem 0.5rem 0.5rem;
+        background: url('/image/adventure_top.png') no-repeat;
+        background-size: 100%;
+        .btn{
+            width: 4.65rem;
+            height: 1.5rem;
+            text-align: center;
+            line-height: 1.8rem;
+            font-size: 0.6rem;
+            text-shadow: 1px 1px black;
+        }
+        .chance{
+            background: url("/image/home_icon.png") no-repeat;
+            background-size: 50rem;
+            background-position: -38.53rem -7.1rem;
+        }
+        .close{
+            float: right;
+            width: 1.5rem;
+            height: 1.5rem;
+            background: url("/image/home_icon.png") no-repeat;
+            background-size: 35rem;
+            background-position: -27.25rem -2.7rem;
+        }
+        .sp_wrap{
+            float: right;
+            width: 5rem;
+            height: 1.2rem;
+            padding:0.1rem 0.5rem 0 1rem;
+            .wrap{
+                display: block;
+                line-height: 1.2rem;
+                background-color: #1e3546;
+                border: 1px solid #ffffff;
+                border-radius: 3px;
+            }
+            &::after{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 2rem;
+                height: 1.5rem;
+                background: url("/image/home_icon.png") no-repeat;
+                background-size: 30rem;
+                background-position: -19.5rem -2rem;
+            }
+        }
+    }
+    .adventure_body{
+        padding: 0 0.2rem;
+        background-color: #fff4de;
+        .adventure_list{
+            height: 68vh;
+            overflow: hidden;
+            overflow-y: scroll;
+        }
+        .adventure_item{
+            padding: 0.3rem 1rem;
+            background: url("/image/adventure_bg.png") no-repeat;
+            background-size: 100%;
+            .merit{
+                padding: 1rem 0rem;
+            }
+            .name{
+                padding-left: 1rem;
+            }
+            .char_list{
+                margin-top: 0.8rem;
+            }
+            .char_item{
+                width: 2rem;
+                height: 2rem;
+                margin: 0 0.1rem;
+                img{
+                    width: 100%;
+                }
+            }
+            .challenge{
+                width: 3.5rem;
+                height: 1.5rem;
+                margin-top: 0.8rem;
+                color: white;
+                background: url(/image/home_icon.png) no-repeat;
+                background-size: 40rem;
+                background-position: -26.4rem -7.5rem;
+            }
+        }
+        .rank_data{
+            padding:0.5rem 0.5rem 1rem;
+            background: url('/image/form_sx_bg.png') no-repeat;
+            background-size: 100%;
+            .merit{
+            }
+            .merit_title{
+                float: left;
+                line-height: 1.5rem;
+            }
+            .merit_bar{
+                width: 5rem;
+                height: 1.5rem;
+                margin-left: 5rem;
+                padding:0.25rem 0 0 1rem;
+                .merit_icon{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background: url("/image/home_icon.png") no-repeat;
+                    background-size: 17rem;
+                    background-position:-5.9rem -3.7rem;
+                }
+                .txt{
+                    text-align: center;
+                    background-color: #1e3546;
+                    border: 1px solid #ffffff;
+                    border-radius: 3px;
+                    color: white;
+                }
+            }
+            .refresh{
+                float: right;
+                width: 3.5rem;
+                height: 1.5rem;
+                color: white;
+                margin-top: 0.5rem;
+                line-height: 1.5rem;
+                text-shadow: 1px 1px black;
+                background: url(/image/home_icon.png) no-repeat;
+                background-size: 40rem;
+                background-position: -26.4rem -7.5rem;
+            }
+        }
+    }
+    .loading_wrap{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15rem;
+        height: 15rem;
+        transform: translate(-50%,-50%);
+        .loading{
+            width: 100%;
+        }
+    }
+}

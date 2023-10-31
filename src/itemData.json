@@ -1,0 +1,11 @@
+[
+    {"id":"xd","name":"仙豆","category":"sp值","desc":"增加1点SP值","path":"/image/item/xd_icon.png","useScen":"now"},
+    {"id":"css","name":"超圣水","category":"潜力","desc":"用于战力的潜力激发","path":"/image/item/css_icon.png","useScen":"other"},
+    {"id":"tys","name":"铜钥匙","category":"铜宝箱","desc":"开启铜宝箱的钥匙","path":"/image/item/tys_icon.png","useScen":"other"},
+    {"id":"mini_coin","name":"一小袋金币","category":"金币","desc":"增加30000金币","path":"/image/item/mini_coin_icon.png","useScen":"now"},
+    {"id":"mini_dia","name":"小钻石卡","category":"钻石","desc":"增加10钻石","path":"/image/item/mini_dia_icon.png","useScen":"now"},
+    {"id":"fivewzjn","name":"五星武者胶囊","category":"胶囊","desc":"3-5星战士","path":"/image/item/fivewuzhejiaonang.png","useScen":"jiaonang"},
+    {"id":"fivewqjn","name":"五星武器胶囊","category":"胶囊","desc":"3-5星武器","path":"/image/item/fivewuqijiaonang.png","useScen":"jiaonang"},
+    {"id":"jys","name":"金钥匙","category":"金宝箱","desc":"开启金宝箱的钥匙","path":"/image/item/jys_icon.png","useScen":"other"},
+    {"id":"yys","name":"银钥匙","category":"银宝箱","desc":"开启银宝箱的钥匙","path":"/image/item/yys_icon.png","useScen":"other"}
+]

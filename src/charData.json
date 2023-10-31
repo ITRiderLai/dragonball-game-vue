@@ -1,0 +1,326 @@
+[
+    {
+        "id":0,
+        "name":"qiqi",
+        "title":"琪琪",
+        "headImg":"/image/char_head/qiqi_head.png",
+        "charImg":"/image/char/qiqi.png",
+        "skill":[
+            {"id":0,"name":"飞镖头镖","img":"/image/skill/feibiaotoubiao.png","intro":"攻击时，有20%几率增加自身34%的防御和攻击值", "type": "self", "change": 18, "level": 34},
+            {"id":1,"name":"治愈术","img":"/image/skill/zhiyushu.png","intro":"胜利后25%几率增加28%的攻击和防御值", "type": "victory", "change": 25, "level": 28}
+        ],
+        "info":"地球人，龙珠里面仅有的几位美女之一，有暴力倾向，脾气也不怎么好，每次看到悟空带着悟饭胡闹总会大发雷霆",
+        "Kama":[
+            {"id":0,"name":"我的老公","txt":"与<小悟空>同时上阵提高防御+35%", "rela": "rela_char1_status"},
+            {"id":1,"name":"好爸爸","txt":"与<牛魔王>同时上阵提高防御+35%", "rela": "rela_char2_status"},
+            {"id":2,"name":"特有武器","txt":"装备<琪琪的头盔>提高防御+35%", "rela": "rela_equip1_status"},
+            {"id":3,"name":"被你打昏","txt":"与<乐平>同时上阵提高防御+35%", "rela": "rela_char3_status"}
+        ]
+    },
+    {
+        "id":1,
+        "name":"jiewang",
+        "title":"界王",
+        "headImg":"/image/char_head/jiewang_head.png",
+        "charImg":"/image/char/jiewang.png",
+        "skill":[
+            {"id":0,"name":"残像拳","img":"/image/skill/canxiangquan.png","intro":"如果有一个重复的战士上场，增加34%的攻防值", "type": "repeat", "change": 100, "level": 34, "show": "/image/skill/canxiangquan.gif"},
+            {"id":1,"name":"元气弹","img":"/image/skill/yuanqidan.png","intro":"集体攻击，有18%几率降低敌方18%的攻防值", "type": "groupAttack", "change": 18, "level": 18, "show": "/image/skill/yuanqidan.gif"}
+        ],
+        "info":"<仙人>北银河系有限公司的总裁，最大的乐趣就是在自己的北界王星上开车兜风",
+        "Kama":[
+            {"id":0,"name":"教你武功","txt":"与超一悟空同时上阵提高攻击40%", "rela": "rela_char1_status"},
+            {"id":1,"name":"神奇拳法","txt":"当武功<King Kai's Punch>修炼到1级及以上时，提高攻击+35%", "rela": "rela_wugong1"},
+            {"id":2,"name":"我的上司","txt":"与<东界王神>同时上阵提高攻击40%", "rela": "rela_char2_status"},
+            {"id":3,"name":"我的服装","txt":"装备<界王战斗服>提高攻击35%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":2,
+        "name":"jiebite",
+        "title":"杰比特",
+        "headImg":"/image/char_head/jiebite_head.png",
+        "charImg":"/image/char/jiebite.png",
+        "skill":[
+            {"id":0,"name":"瞬间移动","img":"/image/skill/sunjianyidong.png","intro":"敌方使用技能时，有20%的几率", "type": "repeat"},
+            {"id":1,"name":"治愈术","img":"/image/skill/baoqi.png","intro":"胜利后25%几率增加28%的攻击和防御值", "type": "victory", "change": 50, "level": 28, "show": "/image/skill/zhiyushu.gif"}
+        ],
+        "info":"<仙人>东界王神的随从，一个强大的战士，拥有治愈任何伤害和瞬间移动的能力，绝对是专业的打手和兼职保镖",
+        "Kama":[
+            {"id":0,"name":"寻找勇士","txt":"与<孙悟饭>同时上阵提高攻击40%", "rela": "rela_char1_status"},
+            {"id":1,"name":"老祖宗","txt":"与<老界王神>同时上阵提高攻击40%", "rela": "rela_char2_status"},
+            {"id":2,"name":"界王神大人","txt":"与<东界王神>同时上阵提高攻击35%", "rela": "rela_char3_status"},
+            {"id":3,"name":"界王神界服","txt":"装备<界王神界服>提高攻击35%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":3,
+        "name":"laojiewangshen",
+        "title":"老界王神",
+        "headImg":"/image/char_head/laojiewangshen_head.png",
+        "charImg":"/image/char/laojiewangshen.png",
+        "skill":[
+            {"id":0,"name":"潜力激发","img":"/image/skill/qianlijifa.png","intro":"增加34%的防御和攻击值"},
+            {"id":1,"name":"群体复活","img":"/image/skill/quntifuhuo.png","intro":"胜利后25%几率增加28%的攻击和防御值"}
+        ],
+        "info":"<仙人>最早被封印在界王神剑之中，拥有激发别人潜力的伟大能力，但是从外表来看怎么都像是一个好色而贪财老骗子",
+        "Kama":[
+            {"id":0,"name":"激发潜力","txt":"与<孙悟饭>同时上阵提高攻击40%", "rela": "rela_char1_status"},
+            {"id":1,"name":"老祖宗","txt":"与<东界王神>同时上阵提高攻击35%", "rela": "rela_char2_status"},
+            {"id":2,"name":"教你合体","txt":"与<杰比特神>同时上阵提高攻击35%", "rela": "rela_char3_status"},
+            {"id":3,"name":"界王神界服","txt":"装备<界王战斗服>提高攻击40%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":4,
+        "name":"sunwufan",
+        "title":"孙悟饭",
+        "headImg":"/image/char_head/sunwufan_head.png",
+        "charImg":"/image/char/sunwufan.png",
+        "skill":[
+            {"id":0,"name":"超级气功波","img":"/image/skill/chaojiqigongbo.png","intro":"战斗中集体攻击，有20%几率降低敌方25%的攻防值，降低敌方2名战士10%的攻防值", "type": "repeat"},
+            {"id":1,"name":"超级赛亚人","img":"/image/skill/chaojisaiyaren.png","intro":"在战斗中，有25%的几率增加26%的防御和攻击值", "type": "repeat"}
+        ],
+        "info":"<赛亚人>成年后的孙悟饭完全继承了父亲的优良传统，除了耍帅扮酷之外最大的爱好就是拯救地球",
+        "Kama":[
+            {"id":0,"name":"模范老爸","txt":"与<超一孙悟空>同时上阵提高攻击40%", "rela": "rela_char1_status"},
+            {"id":1,"name":"潜力激发","txt":"与<老界王神>同时上阵提高攻击40%", "rela": "rela_char2_status"},
+            {"id":2,"name":"我的女儿","txt":"与<佩佩>同时上阵提高攻击40%", "rela": "rela_char3_status"},
+            {"id":3,"name":"超人道具","txt":"装备<蒙面人头盔>提高攻击40%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":5,
+        "name":"napa",
+        "title":"那帕",
+        "headImg":"/image/char_head/napa_head.png",
+        "charImg":"/image/char/napa.png",
+        "skill":[
+            {"id":0,"name":"超级气功弹","img":"/image/skill/chaojiqigongdan.png","intro":"集体攻击，有15%几率降低敌方15%的攻防值，降低敌方2名战士6%的攻防值"},
+            {"id":1,"name":"爆气","img":"/image/skill/baoqi.png","intro":"在战斗中，有15%的几率增加16%的防御和攻击值"}
+        ],
+        "info":"<仙人>贝吉塔的打手和兼职保镖，后来因为业务不过关，被贝吉塔辞退",
+        "Kama":[
+            {"id":0,"name":"王子的下属","txt":"与<贝吉塔>同时上阵提高攻击35%", "rela": "rela_char1_status"},
+            {"id":1,"name":"赛亚人","txt":"与<拉蒂兹>同时上阵提高攻击30%", "rela": "rela_char2_status"},
+            {"id":2,"name":"杀了你们","txt":"与<天津饭><饺子>同时上阵提高攻击35%", "rela": "rela_char3_status"},
+            {"id":3,"name":"战斗服","txt":"装备<宇宙通用甲>提高攻击30%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":6,
+        "name":"yamucha",
+        "title":"雅木茶",
+        "headImg":"/image/char_head/yamucha_head.png",
+        "charImg":"/image/char/yamucha.png",
+        "skill":[
+            {"id":0,"name":"狼牙风风拳","img":"/image/skill/langyafengfengquan.png","intro":"战斗中，有20%的几率增加21%的攻防值"},
+            {"id":1,"name":"操气弹","img":"/image/skill/chaoqidan.png","intro":"在战斗中，有23%的几率增加11%的防御和攻击值和降低敌人11%的攻防值"}
+        ],
+        "info":"<地球人>强大的地球人，也是最早认识悟空的第一批伙伴，后来一直伴随悟空与强大的敌人战斗",
+        "Kama":[
+            {"id":0,"name":"把你打昏","txt":"与<琪琪>同时上阵提高防御35%", "rela": "rela_char1_status"},
+            {"id":1,"name":"被你击败","txt":"与<程龙>同时上阵提高攻击35%", "rela": "rela_char2_status"},
+            {"id":2,"name":"龟仙流","txt":"与<小悟空><小克林>同时上阵提高攻击35%", "rela": "rela_char3_status"},
+            {"id":3,"name":"战斗服装","txt":"装备<乐平战斗服>提高防御35%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":7,
+        "name":"waixingzhanshi",
+        "title":"外星战士",
+        "headImg":"/image/char_head/waixingzhanshi_head.png",
+        "charImg":"/image/char/waixingzhanshi.png",
+        "skill":[
+            {"id":0,"name":"气功波","img":"/image/skill/qigongbo.png","intro":"战斗中，有11%的几率降低敌方12%的防御和攻击值"}
+        ],
+        "info":"<宇宙人>外星人大众脸，每次战斗都冲锋在前，替BOSS们分担伤害，但是可惜实力太弱",
+        "Kama":[
+            {"id":0,"name":"外星杂鱼","txt":"与<栽培人>同时上阵提高攻击25%", "rela": "rela_char1_status"},
+            {"id":1,"name":"都是外星人","txt":"与<阿卡>同时上阵提高攻击25%", "rela": "rela_char2_status"}
+        ]
+    },
+    {
+        "id":8,
+        "name":"hongchoujunshangxiao",
+        "title":"红绸军上校",
+        "headImg":"/image/char_head/hongchoujunshangxiao_head.png",
+        "charImg":"/image/char/hongchoujunshangxiao.png",
+        "skill":[
+            {"id":0,"name":"机枪扫射","img":"/image/skill/jiqiangsaoshe.png","intro":"战斗中，有25%的几率增加20%的攻击值"}
+        ],
+        "info":"<红绸军>短裤上校，怀疑年轻的时候当过童子军，众多扑街角色一只，领便当的一把好手",
+        "Kama":[
+            {"id":0,"name":"大众脸下属","txt":"与<红绸军士兵>同时上阵提高防御25%", "rela": "rela_char1_status"},
+            {"id":1,"name":"红绸军","txt":"与<红统帅><黑福军>同时上阵提高防御25%", "rela": "rela_char2_status"}
+        ]
+    },
+    {
+        "id":9,
+        "name":"xiaolinshixiong",
+        "title":"小林师兄",
+        "headImg":"/image/char_head/xiaolinshixiong_head.png",
+        "charImg":"/image/char/xiaolinshixiong.png",
+        "skill":[
+            {"id":0,"name":"天空十字斩","img":"/image/skill/tiankongshizizhan.png","intro":"战斗中，有5%的几率增加34%的防御和攻击值"}
+        ],
+        "info":"<地球人>小林的师兄，在少林寺中经常欺负小林，参加武道会时被小林轻松击败",
+        "Kama":[
+            {"id":0,"name":"出家人服装","txt":"装备<僧袍>提高防御25%", "rela": "rela_equip1_status"},
+            {"id":1,"name":"曾经的师弟","txt":"与<小林>同时上阵提高防御25%", "rela": "rela_char1_status"}
+        ]
+    },
+    {
+        "id":10,
+        "name":"wu",
+        "title":"舞",
+        "headImg":"/image/char_head/wu_head.png",
+        "charImg":"/image/char/wu.png",
+        "skill":[
+            {"id":0,"name":"机枪扫射","img":"/image/skill/jiqiangsaoshe.png","intro":"战斗中，有20%的几率增加21%的攻防值"}
+        ],
+        "info":"<地球人>皮拉夫的左膀右臂，一直总心耿耿的给皮拉夫打工，想通过自己的努力升值加薪",
+        "Kama":[
+            {"id":0,"name":"征服世界","txt":"与<皮拉夫><修>同时上阵提高防御25%", "rela": "rela_char1_status"},
+            {"id":1,"name":"解封大魔王","txt":"与<比克大魔王>同时上阵提高防御25%", "rela": "rela_char2_status"}
+        ]
+    },
+    {
+        "id":11,
+        "name":"pilafu",
+        "title":"皮拉夫",
+        "headImg":"/image/char_head/pilafu_head.png",
+        "charImg":"/image/char/pilafu.png",
+        "skill":[
+            {"id":0,"name":"火箭弹","img":"/image/skill/huojiandan.png","intro":"战斗中，有25%的几率增加20%的攻击值", "type": "repeat"}
+        ],
+        "info":"<地球人>皮拉夫大王，拥有巨大产业的土豪老板，妄图通过龙珠来征服世界",
+        "Kama":[
+            {"id":0,"name":"征服世界","txt":"与<舞><修>同时上阵提高防御25%", "rela": "rela_char1_status"},
+            {"id":1,"name":"解封大魔王","txt":"与<比克大魔王>同时上阵提高防御25%", "rela": "rela_char2_status"}
+        ]
+    },
+    {
+        "id":12,
+        "name":"hongchoujunshibing",
+        "title":"红绸军士兵",
+        "headImg":"/image/char_head/hongchoujunshibing_head.png",
+        "charImg":"/image/char/hongchoujunshibing.png",
+        "skill":[
+          
+        ],
+        "info":"<地球人>红绸军中的大众脸，每次都是Boss一句话，无论刀山火海也要冲锋在前的大无畏战士",
+        "Kama":[
+            {"id":0,"name":"大众脸","txt":"与<机械守卫><熊强盗><培植人>同时上阵提高防御25%", "rela": "rela_char1_status"}
+        ]
+    },
+    {
+        "id":13,
+        "name":"xiongqiangdao",
+        "title":"熊强盗",
+        "headImg":"/image/char_head/xiongqiangdao_head.png",
+        "charImg":"/image/char/xiongqiangdao.png",
+        "skill":[
+          
+        ],
+        "info":"<地球人>熊强盗，在这里代表所有大众脸出现",
+        "Kama":[
+            {"id":0,"name":"大众脸","txt":"与<机械守卫><红绸军士兵><培植人>同时上阵提高防御25%", "rela": "rela_char1_status"}
+        ]
+    },
+    {
+        "id":14,
+        "name":"peizhiren",
+        "title":"培植人",
+        "headImg":"/image/char_head/peizhiren_head.png",
+        "charImg":"/image/char/peizhiren.png",
+        "skill":[
+          
+        ],
+        "info":"<地球人>挖个坑，埋个豆，浇上水，马上就能张大成型的培植人，应该是宇宙中的高科技产物，可以自爆",
+        "Kama":[
+            {"id":0,"name":"大众脸","txt":"与<机械守卫><红绸军士兵><熊强盗>同时上阵提高防御25%", "rela": "rela_char1_status"}
+        ]
+    },
+    {
+        "id":15,
+        "name":"jixieshouwei",
+        "title":"机械守卫",
+        "headImg":"/image/char_head/jixieshouwei_head.png",
+        "charImg":"/image/char/jixieshouwei.png",
+        "skill":[
+          
+        ],
+        "info":"<红绸军>海盗守卫机器人，高科技的产物，可以实现无人驾驶，能够自动战斗",
+        "Kama":[
+            {"id":0,"name":"大众脸","txt":"与<培植人><红绸军士兵><熊强盗>同时上阵提高防御25%", "rela": "rela_char1_status"}
+        ]
+    },
+    {
+        "id":16,
+        "name":"wl",
+        "title":"乌龙",
+        "headImg":"/image/char_head/wl_head.png",
+        "charImg":"/image/char/wl.png",
+        "skill":[
+          
+        ],
+        "info":"<地球人>贪财好色的小猪，用来强化武者可提供大量经验",
+        "Kama":[
+        ]
+    },
+    {
+        "id":17,
+        "name":"chaolanwukong",
+        "title":"超蓝悟空",
+        "headImg":"/image/char_head/chaolanwukong_head.png",
+        "charImg":"/image/char/chaolanwukong.png",
+        "skill":[
+            {"id":0,"name":"生命侵袭","img":"/image/skill/shengmingqinxi.png","intro":"战斗中，有50%的几率沉默对方使其无法使用技能", "type": "silent", "change": 50, "show": "/image/skill/shengmingqinxi.gif"},
+            {"id":1,"name":"闪光地狱弹","img":"/image/skill/shanguangdiyudan.png","intro":"在战斗中，有23%的几率增加11%的攻击值和降低敌人11%的攻防值", "type": "addAndReduce", "change": 23, "level": 11, "show": "image/skill/shanguangdiyudan.gif"}
+        ],
+        "info":"<赛亚人>孙悟空跟随维斯修炼后的成果，可以直接神化，由超赛形态变化而来的赛亚人之神",
+        "Kama":[
+            {"id":0,"name":"完美掌握","txt":"与<赛亚人之神><超四孙悟空>同时上阵提高攻击50%", "rela": "rela_char1_status"},
+            {"id":1,"name":"同仇敌忾","txt":"与<蓝发贝吉塔>同时上阵提高攻击50%", "rela": "rela_char2_status"},
+            {"id":2,"name":"师父指导","txt":"与<维斯>同时上阵提高攻击50%", "rela": "rela_char3_status"},
+            {"id":3,"name":"诸神庇护","txt":"装备<诸神庇护>提高攻击50%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":18,
+        "name":"fulisha",
+        "title":"弗利沙",
+        "headImg":"/image/char_head/fulisha_head.png",
+        "charImg":"/image/char/fulisha.png",
+        "skill":[
+            {"id":0,"name":"破坏光线","img":"/image/skill/pohuaiguangxian.png","intro":"战斗中，有20%的几率增加21%的攻防值"},
+            {"id":1,"name":"地爆天星","img":"/image/skill/shanguangdiyudan.png","intro":"在战斗中，有23%的几率增加11%的防御和攻击值和降低敌人11%的攻防值"}
+        ],
+        "info":"<宇宙人>最终状态下的弗利沙，实力超强，就连超大型元气弹都不能对其造成致命伤",
+        "Kama":[
+            {"id":0,"name":"父亲大人","txt":"与<库尔德王>同时上阵提高攻击40%", "rela": "rela_char1_status"},
+            {"id":1,"name":"第二阶段","txt":"与<弗利沙二阶>同时上阵提高攻击35%", "rela": "rela_char2_status"},
+            {"id":2,"name":"初级形态","txt":"与<弗利沙一阶>同时上阵提高攻击40%", "rela": "rela_char3_status"},
+            {"id":3,"name":"战斗舱","txt":"装备<急速战斗舱>提高攻击40%", "rela": "rela_equip1_status"}
+        ]
+    },
+    {
+        "id":19,
+        "name":"zhanba",
+        "title":"占巴",
+        "headImg":"/image/char_head/zhanba_head.png",
+        "charImg":"/image/char/zhanba.png",
+        "skill":[
+            {"id":0,"name":"精神暴走","img":"/image/skill/shengmingqinxi.png","intro":"战斗中，有20%的几率增加21%的攻防值"},
+            {"id":1,"name":"舍命攻击","img":"/image/skill/shanguangdiyudan.png","intro":"在战斗中，有23%的几率增加11%的防御和攻击值和降低敌人11%的攻防值"}
+        ],
+        "info":"<破坏神>破坏神比鲁斯的弟弟，同样也是破坏神，虽然比哥哥战斗力差，但是宇宙级别的恐怖存在",
+        "Kama":[
+            {"id":0,"name":"兄弟二人","txt":"与<比鲁斯>同时上阵提高攻击50%", "rela": "rela_char1_status"},
+            {"id":1,"name":"欣赏之人","txt":"与<蓝发孙悟空>同时上阵提高攻击50%", "rela": "rela_char2_status"},
+            {"id":2,"name":"第六最强","txt":"与<希特>同时上阵提高攻击50%", "rela": "rela_char3_status"},
+            {"id":3,"name":"神的圆珠","txt":"装备<神的圆珠>提高攻击50%", "rela": "rela_equip1_status"}
+        ]
+    }
+]

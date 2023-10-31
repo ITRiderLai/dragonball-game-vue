@@ -1,0 +1,50 @@
+.bgs(@url,@size){
+    background-image: url(@url);
+    background-repeat: no-repeat;
+    background-size: @size;
+}
+
+//垂直居中
+.cz(){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+//水平居中
+.sz(){
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+//水平垂直居中
+.csz(){
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}   
+
+//宽高
+.wh(@w,@h){
+    width: @w;
+    height: @h;
+}
+
+//字体大小和颜色和样式
+.font(@size,@color,@style:"Arial"){
+    font: @size @style;
+    color: @color;
+}
+
+//flex水平排布模式
+.flex(){
+    display: flex;
+    flex-direction: row;
+}
+
+//flex宽限定
+.flexw(@n){
+    flex: @n;
+}
