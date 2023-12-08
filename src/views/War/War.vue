@@ -26,6 +26,7 @@
                         </div>
                         <p class="name text_center">{{selfChar.title}}</p>
                         <p class="zl text_center">{{selfChar.current_zl}}</p>
+                        <p class="zl text_center" v-if="selfCharSikllName" style="margin-top: 10px;">使用了{{ selfCharSikllName }}</p>
                     </div>
                 </div>
                 <div class="enemy_char char_box">
@@ -42,6 +43,7 @@
                         </div>
                         <p class="name text_center">{{enemyChar.title}}</p>
                         <p class="zl text_center">{{enemyChar.current_zl}}</p>
+                        <p class="zl text_center" v-if="enemyCharSikllName" style="margin-top: 10px;">使用了{{ enemyCharSikllName }}</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +126,8 @@
             <img class="loading" src="/image/loading.png"/>
         </div>
         <!-- 技能声效 -->
-        <audio :src="skillAudio" ref="audio" autoplay="autoplay" hidden="true"></audio>
+        <audio :src="skillAudio" ref="audio" hidden="true"></audio>
+        <audio src="/audio/pk.mp3" ref="audioPk" hidden="true"></audio>
     </div>
 </template>
 
@@ -150,6 +153,8 @@ export default {
             loadingVisible:false,
             selfCharSikllShow: '',
             enemyCharSikllShow: '',
+            selfCharSikllName: '',
+            enemyCharSikllName: '',
             skillAudio: '/audio/skill.mp3',
             charImgWidth: '',
             charImgHeight: ''
@@ -207,21 +212,34 @@ export default {
             }
             if (selfInfo.show) {
                 this.$refs.audio.play();
-                this.selfCharSikllShow = selfInfo.show
+                setTimeout(() => {
+                    selfInfo.target === 'self' ? this.selfCharSikllShow = selfInfo.show : this.enemyCharSikllShow = selfInfo.show
+                    this.selfCharSikllName =  selfInfo.name
+                }, 500)
             }
 
             if (enemyInfo.show) {
                 this.$refs.audio.play();
-                this.enemyCharSikllShow = enemyInfo.show
+                setTimeout(() => {
+                    enemyInfo.target === 'self' ? this.enemyCharSikllShow = enemyInfo.show : this.selfCharSikllShow = enemyInfo.show
+                    this.enemyCharSikllName =  enemyInfo.name
+                }, 500)
             }
             
             setTimeout(() => {
-                this.selfCharSikllShow = ''
+                selfInfo.target === 'self' ? this.selfCharSikllShow = '' : this.enemyCharSikllShow = ''
             }, selfInfo.time)
 
             setTimeout(() => {
-                this.enemyCharSikllShow = ''
+                enemyInfo.target === 'self' ? this.enemyCharSikllName = '' : this.selfCharSikllShow = ''
             }, enemyInfo.time)
+
+            setTimeout(() => {
+                this.selfCharSikllName = ''
+                this.enemyCharSikllName = ''
+                this.$refs.audioPk.currentTime = 0;
+                this.$refs.audioPk.play();
+            }, delay - 100)
 
             anime({
                 targets:'.self',
@@ -232,7 +250,7 @@ export default {
                 delay: delay
                 // loop: true
             }).finished.then(()=>{
-
+                this.$refs.audioPk.pause();
                 let current_zl = this.selfChar.current_zl - this.enemyChar.current_zl
                 if(current_zl >= 0){
                     this.selfChar.winner = true

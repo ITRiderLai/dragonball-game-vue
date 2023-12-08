@@ -194,11 +194,11 @@ export default {
             let posid = "";
             switch(cate){
                 case 'warrior':
-                    url="/index/ball/replaceChar";
+                    url="/index.php/index/ball/replaceChar";
                     posid = this.posIndex;
                     break;
                 case 'equip':
-                    url="/index/ball/replaceEquip"
+                    url="/index.php/index/ball/replaceEquip"
                     posid = this.charList[this.posIndex].id;
                     break;
             }

@@ -29,8 +29,8 @@ export class Skill {
   // 技能开始使用，返回此技能所消耗的时间
   start () {
 
-    let selfInfo = {time: 1500, show: ''}
-    let enemyInfo = {time: 1500, show: ''}
+    let selfInfo = {time: 1500, show: '', name: '', target: 'self'}
+    let enemyInfo = {time: 1500, show: '', name: '', target: 'self'}
     //己方用技能
     !this.selfChar.isSkilled && !this.selfChar.isSilented && this.selfChar.skill[0] && (selfInfo = this.useSkill(this.selfChar.skill[0], this.selfChar, this.selfList, this.enemyChar))
     // 使用第二个技能时需要先判断是否已经使用第一个技能
@@ -75,14 +75,17 @@ export class Skill {
   // 残像拳 (如果有一个重复的战士上场，增加34%的攻防值)
   residualImageFist (skill, char, charList) {
 
-    let info = {time: 1500, show: ''}
+    let info = {time: 1500, show: '', name: '', target: 'self'}
 
     if (char.skillStatus) return
 
     const repeatChar = charList.filter(item => char.char_name === item.char_name)
 
     if(repeatChar.length > 1) {
-      info = {time: 400, show: skill.show}
+      info.time = 400
+      info.show = skill.show
+      info.name = skill.name
+
       this.setSkilledStatus(char)
       char.current_zl = char.current_zl * 4
       char.skillStatus = true
@@ -94,7 +97,7 @@ export class Skill {
   // 治愈术（胜利后25%几率增加28%的攻击和防御值）
   cure (skill, char) {
     
-    let info = {time: 1500, show: ''}
+    let info = {time: 1500, show: '', name: '', target: 'self'}
 
     if (
       char.winner
@@ -108,10 +111,10 @@ export class Skill {
   // 生命侵袭 (有50%的几率使对方沉默)
   silent (skill, char, enemy) {
 
-    let info = {time: 1500, show: ''}
+    let info = {time: 1500, show: '', name: '', target: 'enemy'}
 
     if (Math.floor(Math.random() * 100) < skill.change) {
-      info = {time: 1800, show: skill.show}
+      info = {time: 1800, show: skill.show, name: skill.name}
       this.setCharSilent(enemy)
       this.setSkilledStatus(char)
     }
@@ -122,12 +125,13 @@ export class Skill {
   // 有几率增加自己攻击值和减少敌方攻击值(闪光地狱弹)
   addSelfAndReduceEnemy (skill, char, enemy) {
 
-    let info = {time: 1500, show: ''};
+    let info = {time: 1500, show: '', name: '', target: 'enemy'};
     if (Math.floor(Math.random() * 100) < skill.change) {
-      info = {time: 1800, show: skill.show}
+      info = { time: 1800, show: skill.show, name: skill.name, target: 'enemy' }
       this.setSkilledStatus(char)
-      info.addZl = this.addZl(skill, char)
-      info.reduceEnemyZl = this.reduceZl(skill, enemy)
+      
+      info.addZl = this.addZl(skill, char, 1000)
+      info.reduceEnemyZl = this.reduceZl(skill, enemy, 1000)
     }
 
     return info
@@ -136,7 +140,7 @@ export class Skill {
   // 有几率增加自身攻击
   selfAddZl (skill, char, time) {
 
-    let info = {time: 1500, show: ''}
+    let info = {time: 1500, show: '', name: '', target: 'self'}
 
     if (Math.floor(Math.random() * 100) < skill.change) {
       info = {time: time, show: skill.show}
@@ -155,9 +159,11 @@ export class Skill {
    * @returns 战力值
    */
   // 增加战力
-  addZl (skill, char) {
+  addZl (skill, char, time = 0) {
     const addZl = Math.ceil(char.current_zl * skill.level / 100)
-    char.current_zl = char.current_zl + addZl
+    setTimeout(() => {
+      char.current_zl = char.current_zl + addZl
+    }, time)
     return addZl
   }
 
@@ -169,9 +175,11 @@ export class Skill {
    * @returns 战力值
    */
   // 减少战力
-  reduceZl (skill, char) {
+  reduceZl (skill, char, time) {
     const reduceZl = Math.ceil(char.current_zl * skill.level / 100)
-    char.current_zl = char.current_zl - reduceZl
+    setTimeout(() => {
+      char.current_zl = char.current_zl - reduceZl
+    }, time)
     return reduceZl
   }
 

@@ -29,7 +29,7 @@
                 {"id":"2-2","order":"Two","txt":"悟空和布尔玛正在路上，他们听说一个叫乌龙的妖怪抢劫了少女。","vigor":15,"exp":60,"coin":2250},
                 {"id":"2-3","order":"Final Stage","txt":"悟空和乌龙打完架，发现其实乌龙是个色狼小猪。乌龙答应释放这些女孩，并且加入寻找龙珠的团队。","vigor":15,"exp":60,"coin":2250,"recomended":600,"instance_level":0,"chapter_id":"2&0","enemy":[
                     {"id":0,"char_name":"xiaoxinshixiong","title":"小林师兄","grade":1,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/xiaolinshixiong_head.png","charImg":"/image/char/xiaolinshixiong.png","star":2,"skill":[
-                        {"id":0,"name":"天空十字斩","img":"/image/skill/tiankongshizizhan.png","intro":"战斗中，有5%的几率增加34%的防御和攻击值", "type": "silent", "change": 100, "show": "/image/skill/zhiyushu.gif"}
+                        {"id":0,"name":"天空十字斩","img":"/image/skill/tiankongshizizhan.png","intro":"战斗中，有5%的几率增加34%的防御和攻击值", "type": "silent", "change": 5, "show": "/image/skill/zhiyushu.gif"}
                     ]},
                     {"id":1,"char_name":"hongchoujunshibing","title":"红绸军士兵","grade":1,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/hongchoujunshibing_head.png","charImg":"/image/char/hongchoujunshibing.png","star":1,"skill":[
                      
@@ -47,7 +47,7 @@
                 {"id":"3-4","order":"Four","txt":"虽然雅木茶很强壮，但是他害怕女孩们。不过，他总是想要结婚","vigor":15,"exp":60,"coin":2250},
                 {"id":"3-5","order":"Final Stage","txt":"从此之后雅木茶一直在悟空他们身边活跃着。","vigor":20,"exp":80,"coin":3000,"recomended":980,"instance_level":0,"chapter_id":"3&1","enemy":[
                     {"id":0,"char_name":"xiongqiangdao","title":"熊强盗","grade":2,"current_zl":240,"current_fy":240,"headImg":"/image/char_head/xiongqiangdao_head.png","charImg":"/image/char/xiongqiangdao.png","star":1,"skill":[
-                       
+
                     ]},
                     {"id":1,"char_name":"pilafu","title":"皮拉夫","grade":2,"current_zl":300,"current_fy":300,"headImg":"/image/char_head/pilafu_head.png","charImg":"/image/char/pilafu.png","star":2,"skill":[
                             {"id":0,"name":"火箭弹","img":"/image/skill/huojiandan.png","intro":"战斗中，有25%的几率增加20%的攻击值", "type": "repeat"}

@@ -7,5 +7,6 @@
     {"id":"fivewzjn","name":"五星武者胶囊","category":"胶囊","desc":"3-5星战士","path":"/image/item/fivewuzhejiaonang.png","useScen":"jiaonang"},
     {"id":"fivewqjn","name":"五星武器胶囊","category":"胶囊","desc":"3-5星武器","path":"/image/item/fivewuqijiaonang.png","useScen":"jiaonang"},
     {"id":"jys","name":"金钥匙","category":"金宝箱","desc":"开启金宝箱的钥匙","path":"/image/item/jys_icon.png","useScen":"other"},
-    {"id":"yys","name":"银钥匙","category":"银宝箱","desc":"开启银宝箱的钥匙","path":"/image/item/yys_icon.png","useScen":"other"}
+    {"id":"yys","name":"银钥匙","category":"银宝箱","desc":"开启银宝箱的钥匙","path":"/image/item/yys_icon.png","useScen":"other"},
+    {"id":"wl","name":"乌龙","category":"经验","desc":"用于升级战士等级","path":"/image/item/wl_icon.png","useScen":"other"}
 ]

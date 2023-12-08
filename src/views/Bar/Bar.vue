@@ -136,13 +136,13 @@ export default {
             this.loadingVisible = true;
             switch(tabs.index){
                 case "0":
-                    url = '/index/ball/getItem';
+                    url = '/index.php/index/ball/getItem';
                     break;
                 case "1":
-                    url = '/index/ball/getWarrior';
+                    url = '/index.php/index/ball/getWarrior';
                     break;
                 case "2":
-                    url = '/index/ball/getEquip';
+                    url = '/index.php/index/ball/getEquip';
                     break;
             }
             this.axios({
@@ -154,13 +154,13 @@ export default {
                     case "/index.php/index/ball/getItem":
                         that.itemData = res.data;
                         break;
-                    case '/index/ball/getWarrior':
+                    case '/index.php/index/ball/getWarrior':
                         that.warriorData = res.data;
                         break;
-                    case '/index/ball/getEquip':
+                    case '/index.php/index/ball/getEquip':
                         that.equipData = res.data;
                         break;
-                    case '/index/ball/getFragment':
+                    case '/index.php/index/ball/getFragment':
                         that.fragmentData = res.data;
                         break;
                 }

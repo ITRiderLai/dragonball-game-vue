@@ -276,8 +276,8 @@
         "headImg":"/image/char_head/chaolanwukong_head.png",
         "charImg":"/image/char/chaolanwukong.png",
         "skill":[
-            {"id":0,"name":"生命侵袭","img":"/image/skill/shengmingqinxi.png","intro":"战斗中，有50%的几率沉默对方使其无法使用技能", "type": "silent", "change": 50, "show": "/image/skill/shengmingqinxi.gif"},
-            {"id":1,"name":"闪光地狱弹","img":"/image/skill/shanguangdiyudan.png","intro":"在战斗中，有23%的几率增加11%的攻击值和降低敌人11%的攻防值", "type": "addAndReduce", "change": 23, "level": 11, "show": "image/skill/shanguangdiyudan.gif"}
+            {"id":0,"name":"生命侵袭","img":"/image/skill/shengmingqinxi.png","intro":"战斗中，有50%的几率沉默对方使其无法使用技能", "type": "silent", "change": 20, "show": "/image/skill/shengmingqinxi.gif"},
+            {"id":1,"name":"闪光地狱弹","img":"/image/skill/shanguangdiyudan.png","intro":"在战斗中，有23%的几率增加11%的攻击值和降低敌人11%的攻防值", "type": "addAndReduce", "change": 100, "level": 11, "show": "image/skill/shanguangdiyudan.gif"}
         ],
         "info":"<赛亚人>孙悟空跟随维斯修炼后的成果，可以直接神化，由超赛形态变化而来的赛亚人之神",
         "Kama":[
